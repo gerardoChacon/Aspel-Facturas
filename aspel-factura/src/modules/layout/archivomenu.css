@@ -1,0 +1,66 @@
+.archivo-menu {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  width: 220px;
+  background: #ffffff;
+  border: 1px solid #c5c8d2;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  padding: 4px 0;
+  font-size: 13px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 6px 10px;
+  gap: 8px;
+  cursor: pointer;
+  color: #333;
+}
+
+.menu-item:hover {
+  background: #e8eff8;
+}
+
+.menu-icon {
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.doc-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg fill='gray' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2Z' /></svg>");
+}
+
+.printer-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg fill='gray' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M6,19H18V22H6V19M19,8A3,3 0 0,1 22,11V17H18V14H6V17H2V11A3,3 0 0,1 5,8H19M6,3H18V7H6V3Z' /></svg>");
+}
+
+.folder-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg fill='gray' viewBox='0 0 24 24'><path d='M10,4L12,6H20A2,2 0 0,1 22,8V18A2,2 0 0,1 20,20H4A2,2 0 0,1 2,18V6A2,2 0 0,1 4,4H10Z' /></svg>");
+}
+
+.qr-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg fill='gray' viewBox='0 0 24 24'><path d='M3,3H10V10H3V3M5,5V8H8V5H5M14,3H21V10H14V3M16,5V8H19V5H16M3,14H10V21H3V14M5,16V19H8V16H5M14,14H16V16H14V14Z' /></svg>");
+}
+
+.star-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg fill='gray' viewBox='0 0 24 24'><path d='M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27Z' /></svg>");
+}
+
+.new-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg fill='gray' viewBox='0 0 24 24'><path d='M12,2A10,10 0 1,0 22,12A10,10 0 0,0 12,2M11,6H13V13H11V6M11,16H13V18H11V16Z' /></svg>");
+}
+
+.exit-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg fill='gray' viewBox='0 0 24 24'><path d='M14.08,15.59L16.67,13H7V11H16.67L14.08,8.41L15.5,7L20.5,12L15.5,17L14.08,15.59M5,5H11V3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H11V19H5V5Z' /></svg>");
+}
+
+.arrow {
+  margin-left: auto;
+  font-size: 12px;
+  color: #555;
+}

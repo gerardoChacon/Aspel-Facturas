@@ -1,0 +1,49 @@
+.bottom-bar {
+  width: 100%;
+  height: 32px;
+  background: linear-gradient(#e9edf5, #d9dfeb);
+  border-top: 1px solid #b6bac4;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  padding: 0 8px;
+}
+
+/* Caja blanca izquierda */
+.bottom-search {
+  width: 250px;
+  height: 22px;
+  font-size: 12px;
+  padding: 2px 6px;
+  border: 1px solid #c8ccd3;
+  border-radius: 2px;
+  outline: none;
+}
+
+/* Derecho completo */
+.bottom-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Iconito estilo Aspel */
+.user-icon {
+  width: 18px;
+  height: 18px;
+  background: url("data:image/svg+xml;utf8,\
+<svg fill='gray' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>\
+<circle cx='12' cy='8' r='4'/>\
+<path d='M4,22c0-4,4-7,8-7s8,3,8,7'/>\
+</svg>")
+    no-repeat center;
+}
+
+/* Texto fecha */
+.bottom-text {
+  font-size: 12px;
+  color: #3a3a3a;
+}
