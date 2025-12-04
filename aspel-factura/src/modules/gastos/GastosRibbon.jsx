@@ -1,17 +1,17 @@
 import React from "react";
 import "./gastosRibbon.css";
 
-export default function GastosRibbon() {
+export default function GastosRibbon({ onOpen }) {
   return (
     <div className="ribbon-bg">
       <div className="grupo">
         <div className="grupo-icons">
-          <div className="btn-item">
+          <div className="btn-item" onClick={() => onOpen("gastos")}>
             <div className="icon-placeholder"></div>
             <span className="text-main">Gastos</span>
           </div>
 
-          <div className="btn-item">
+          <div className="btn-item" onClick={() => onOpen("comprobantes_pago")}>
             <div className="icon-placeholder"></div>
             <span className="text-main">Comprobantes de pago</span>
           </div>

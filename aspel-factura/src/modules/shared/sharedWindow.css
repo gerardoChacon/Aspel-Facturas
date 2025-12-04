@@ -1,0 +1,87 @@
+.win-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5000;
+}
+
+.win-container {
+  width: 900px;
+  height: 480px;
+  background: #f6f8fb;
+  border: 1px solid #9aa3b3;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.win-titlebar {
+  height: 32px;
+  background: linear-gradient(#dbe2ee, #c8d1e0);
+  border-bottom: 1px solid #9ba4b4;
+  padding: 0 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.win-close {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.win-toolbar {
+  height: 45px;
+  background: #eef2f8;
+  border-bottom: 1px solid #b5bccb;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  gap: 8px;
+}
+
+.tb-btn {
+  width: 26px;
+  height: 26px;
+  background: #dbe0e8;
+  border: 1px solid #a9b1c0;
+  border-radius: 3px;
+}
+
+.tb-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tb-select {
+  height: 26px;
+}
+
+.tb-search {
+  width: 120px;
+  height: 24px;
+}
+
+.tb-search-icon {
+  width: 24px;
+  height: 24px;
+  background: #cfd5df;
+  border: 1px solid #a9b1c0;
+}
+
+.win-body {
+  flex: 1;
+  overflow: auto;
+  padding: 12px;
+}

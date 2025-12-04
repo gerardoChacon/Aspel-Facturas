@@ -1,0 +1,71 @@
+.table-container {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: #e6ebf4;
+  padding: 0;
+  margin: 0;
+}
+
+.table-aspel {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  font-size: 13px;
+  table-layout: fixed;
+}
+
+/* Encabezado */
+.table-aspel th {
+  background: #e3e8f1;
+  border-bottom: 1px solid #b9c1ce;
+  padding: 6px 8px;
+  text-align: left;
+  font-weight: normal;
+  color: #3a3a3a;
+}
+
+/* Filas */
+.table-aspel td {
+  padding: 6px 8px;
+  border-bottom: 1px solid #d9dfe8;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Hover tipo Aspel */
+.table-aspel tr:hover td {
+  background: #dce6f9;
+}
+
+/* Anchos idénticos a Aspel FACTURE */
+.table-aspel th:nth-child(1),
+.table-aspel td:nth-child(1) {
+  width: 70px; /* Clave */
+}
+
+.table-aspel th:nth-child(2),
+.table-aspel td:nth-child(2) {
+  width: 200px; /* Razón social */
+}
+
+.table-aspel th:nth-child(3),
+.table-aspel td:nth-child(3) {
+  width: 130px; /* RFC */
+}
+
+.table-aspel th:nth-child(4),
+.table-aspel td:nth-child(4) {
+  width: 130px; /* CURP o Teléfono */
+}
+
+.table-aspel th:nth-child(5),
+.table-aspel td:nth-child(5) {
+  width: 130px; /* Nacionalidad o Email */
+}
+
+.table-aspel th:nth-child(6),
+.table-aspel td:nth-child(6) {
+  width: 200px; /* Complemento o Registro de identificación fiscal */
+}
